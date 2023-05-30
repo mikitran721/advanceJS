@@ -1,10 +1,11 @@
 console.log(`Hello world from JS`);
-//khai bao bien nhanh
+//khai bao bien nhanh; ten phai trung voi key cua object
 let state1 = {name1:'Miki',city:'HCMC',channel:'miki tran dev-en'};
 // let name1=state1.name1;
 // let city = state1.city;
 // let channel = state1.channel;
 let {name1,city,channel} = state1;
+
 console.log(`>>> show key: `,name1,city,channel);
 
 //toan tu ... - copy du lieu arr,object;
